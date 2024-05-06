@@ -1,3 +1,4 @@
+/* Nav Section */
 .nav {
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,5,88,1) 34%, rgba(0,212,255,1) 100%);
@@ -16,10 +17,37 @@
 
 .logo-container img {
   width: 50px;
-  padding-right: 10px;
+  margin-right: 10px;
 }
 
 .logo-container h3 {
-  font-size: 21px;
+  font-size: 1.25rem;
   font-weight: 700;
+}
+
+/* Form Section */
+.form-container {
+  padding: 36px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form-input {
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 10px;
+}
+
+.form-btn {
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,5,88,1) 34%, rgba(0,212,255,1) 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
 }
